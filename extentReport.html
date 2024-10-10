@@ -1,0 +1,1978 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ExtentReports</title>
+        <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+        <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+	    <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@6fbbd1c32fbc2463d026da5c6ce2e9eef0d29512/spark/css/spark-style.css" rel="stylesheet" />
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style type="text/css">
+
+</style></head>    <script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<body class="spa -report standard">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+<div class="header navbar">
+    <div class="vheader">
+        <div class="nav-logo">
+          <a href="#">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary">ExtentReports</span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">Oct 10, 2024 11:40:47 AM</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div><div class="side-nav">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown" onclick="toggleView('test-view')">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>            <div class="vcontainer">
+                <div class="main-content">
+<div class="test-wrapper row test-view">
+	<div class="test-list">
+		<div class="test-list-tools">
+			<ul class="tools pull-left">
+				<li>
+					<a href="">
+					<span class="font-size-14">Tests</span>
+					</a>
+				</li>
+			</ul>
+			<ul class="tools text-right">
+				<li class="user-profile dropdown dropdown-animated scale-left">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<i class="fa fa-exclamation-circle"></i>
+					</a>
+					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+						<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success pull-right"></span></a>
+						
+						
+						
+						
+						
+						<div class="dropdown-divider"></div>
+						<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="test-list-wrapper scrollable">
+			<ul class="test-list-item">
+				<li class="test-item"  status="pass" test-id="1"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Amazon Product Search</p>
+							<p class="duration text-sm">0h 1m 10s+294ms</p>
+							<span class="datetime">11:40:48 AM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Amazon Product Search</h5>
+									<span class='badge badge-success'>10.10.2024 11:40:48</span>
+									<span class='badge badge-danger'>10.10.2024 11:41:58</span>
+									<span class='badge badge-default'>0h 1m 10s+294ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									Search for iPhone 16 on Amazon
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:40:54 AM</td>
+				<td>
+						Browser opened
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:40:59 AM</td>
+				<td>
+						Navigated to Amazon India
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:07 AM</td>
+				<td>
+						Search for iPhone 16 initiated
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:08 AM</td>
+				<td>
+						Product: Apple iPhone 16 (128 GB) - White
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:08 AM</td>
+				<td>
+						Product: Apple iPhone 14 (128 GB) - Starlight
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:08 AM</td>
+				<td>
+						Product: Apple iPhone 16 (128 GB) - Black
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:08 AM</td>
+				<td>
+						Product: Apple iPhone 16 (128 GB) - Pink
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:08 AM</td>
+				<td>
+						Product: Apple iPhone 16 (128 GB) - White
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:08 AM</td>
+				<td>
+						Product: Apple iPhone 16 (128 GB) - Ultramarine
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:08 AM</td>
+				<td>
+						Product: Apple iPhone 16 (128 GB) - Teal
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: Apple iPhone 16 (256 GB) - Black
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: Apple iPhone 16 (256 GB) - Ultramarine
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: Apple iPhone 16 (256 GB) - White
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: Apple iPhone 16 (256 GB) - Teal
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: Apple iPhone 16 (256 GB) - Pink
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: Apple iPhone 16 (512 GB) - Black
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: Apple iPhone 16 Plus (128 GB) - Teal
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: Apple iPhone 16 Plus (128 GB) - Ultramarine
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: Apple iPhone 16 Plus (128 GB) - Black
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: Apple iPhone 16 (512 GB) - Teal
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: Apple iPhone 16 (512 GB) - Pink
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: Apple iPhone 16 Plus (128 GB) - White
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: Apple iPhone 13 (128GB) - Midnight
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: EGOTUDE for iPhone 16 Case | Polycarbonate Hard Back Transparent Cover, Anti-Yellow Bumper
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: Apple iPhone 13 (128GB) - Starlight
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: Apple iPhone 16 Plus (256 GB) - White
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: TheGiftKart Ultra-Hybrid Crystal Clear Back Case Cover for iPhone 16 | Shockproof Design | Camera Protection Bump | Hard Clear Back | Bumper Case Cover for iPhone 16 (PC & TPU, Transparent)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: Apple iPhone 15 Pro Max (256 GB) - Black Titanium
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: ESR for iPhone 16 Case, Compatible with MagSafe, Camera Protection, Shockproof Thin Cover, Resists Yellowing and Scratches, TPU, Magnetic Phone Case for iPhone 16, Zero Series, Clear
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: TheGiftKart Ultra-Hybrid Back Case Cover for iPhone 16 Compatible with MagSafe | Camera Protection | Hard Crystal Clear Back | Shockproof Bumper Case Cover for iPhone 16 (PC & TPU, Transparent)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: EGOTUDE Designed for iPhone 16 Case, Shock Resistant Translucent Matte Hard Back Camera Protection Cover, Strong Magnet Compatible with Mag
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: Apple iPhone 16 Plus (512 GB) - Teal
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: Apple iPhone 13 (128GB) - Blue
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: Lavsh Matte Membrane for iPhone 16 Pro | Durable Transparent Back Skin for iPhone 16 Pro | Scratch-Resistant Matte Back Skin for iPhone 16 Pro| Easy Application Membrane for iPhone 16 Pro
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: Spigen EZ Fit Tempered Glass Screen Protector Guard For iPhone 16 Pro Max - 2 Pack
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: Amozo for iPhone 16 Back Case Cover | Ultra Hybrid Transparent Camera and Drop Protection Back Case Cover for iPhone 16 - (Polycarbonate|Clear)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: ESR for iPhone 16 Case, Compatible with MagSafe, Shockof Military-Grade tection, TPU, Magnetic Phone Case for iPhone 16, Classic Hybrid Case (HaloLock), Frosted Black
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: mobistyle Designed for iPhone 16 Luxury Electroplating Case [Magnetic Mag-Safe] [Integrated Lens Protection] Back Cover Case for iPhone 16 (Meg-Safe Pink)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: CLITZ for iPhone 16/16 Plus Camera Lens Protector Bling Individual Metal Diamond Ring 9H Hardness Scratchproof Protector, Stylish Phone Accessories, Case Friendly (Pink Diamond)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: EGOTUDE Designed for iPhone 16 Case, Soft TPU Flexible Matte Back Cover, Eco-Friendly (White)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: Apple iPhone 13 (128GB) - Pink
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: Spigen EZ Fit Tempered Glass Screen Protector Guard For iPhone 16 Pro - 2 Pack
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:09 AM</td>
+				<td>
+						Product: CASEOLOGY by Spigen Snap Fit for iPhone 16 Screen Protector [Tempered Glass with Installation Kit] [Anti-Scratch] Screen Guard Protector for iPhone 16-2 Pack
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:10 AM</td>
+				<td>
+						Product: CASEOLOGY by Spigen Nano Pop Mag for iPhone 16 Case [Soft & Dust Free Material] Magnetic Military Grade Drop Protection Back Cover Case for iPhone 16 (TPU and PC | Black Sesame)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:10 AM</td>
+				<td>
+						Product: Spigen Ultra Hybrid Back Cover Case Compatible with iPhone 16 (TPU + Poly Carbonate | Matte Black)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:10 AM</td>
+				<td>
+						Product: POPSOCKETS iPhone 16 Case Compatible with MagSafe, Phone Case for iPhone 16, Wireless Charging Compatible, Case Only - Aura
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:10 AM</td>
+				<td>
+						Product: Amozo for iPhone 16 Back Case Cover | Ultra Hybrid Mag-Safe Camera and Drop Protection Back Case Cover for iPhone 16 - (Polycarbonate|Clear)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:10 AM</td>
+				<td>
+						Product: DIZORO Compatible for iPhone 16 Case 6.1, Slim Liquid Silicone 3 Layers Full Covered Soft Gel Rubber Phone Case Protective Cover 6.1 Inch - Lilac
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:10 AM</td>
+				<td>
+						Product: Spigen EZ Fit Tempered Glass Screen Protector Guard for iPhone 16 / iPhone 15 (2 Pack)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:10 AM</td>
+				<td>
+						Product: EGOTUDE Designed for iPhone 16 Case | Shockproof Polycarbonate Hard Back Transparent Drop-Tested Cover
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:10 AM</td>
+				<td>
+						Product: Amazon Brand-Solimo Basic Case for Apple iPhone 16 (Silicone_Transparent)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:10 AM</td>
+				<td>
+						Product: TheGiftKart Ultra-Hybrid Crystal Clear Back Case Cover for iPhone 16 Pro | Shockproof Design | Camera Protection Bump | Hard Clear Back | Bumper Case Cover for iPhone 16 Pro (Transparent)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:10 AM</td>
+				<td>
+						Product: OnePlus 12R (Iron Gray, 16GB RAM, 256GB Storage)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:10 AM</td>
+				<td>
+						Product: DailyObjects Crossbody Utility Phone Lanyard - Strap | Phone Necklace Comfortable Around The Neck, Compatible with All Smartphones
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:10 AM</td>
+				<td>
+						Product: Amazon Basics 25W Compact Wall Charger | Type-C Fast Charging Adapter for Samsung, Xiaomi Phones and iPhone (White, Without Cable)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:10 AM</td>
+				<td>
+						Product: Boult Audio Z40 True Wireless in Ear Earbuds with 60H Playtime, Zen™ ENC Mic, Low Latency Gaming, Type-C Fast Charging, Made in India, 10mm Rich Bass Drivers, IPX5, Bluetooth 5.3 Ear Buds TWS (White)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:10 AM</td>
+				<td>
+						Product: Wayona Type C to Lightning MFI Certified 20W Fast charging Nylon Braided USB C Cable for iPhone 14,14 Pro,14 Pro Max, IPhone 13 Series,12,12 Pro,11,11 Pro Max iPhone 12 Mini, X, 8 (2M, Grey)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:10 AM</td>
+				<td>
+						Product: Wayona 20W USB C +A PD QC3.0 Fast Charging Adapter Compatible for iPhone 16,15,14 Pro/Pro Max Pixel Samsung S24,S23 Ultra iPad Air/Pro Nothing Phone (1) (2) (USB C + A)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:10 AM</td>
+				<td>
+						Product: Lensarmor® 2+2 Pack Compatible with Iphone 16 Tempered Glass Screen Protector Iphone 16 Camera Lens Protector - 9h Hardness, With Oleophobic Coating, Premium UHD Screen Guard For 16, 16 Accessories
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:10 AM</td>
+				<td>
+						Product: UBBWF Liquid & Accident Damage Protection Plan for Mobile Phone Rs 80001-90000 (E Mail Delivery Only) Mobile Phone Insurance
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:10 AM</td>
+				<td>
+						Product: pTron Dynamo Nergy 10000mAh 22.5W Fast Charging Power Bank, 20W PD Fast Charging, Supports Xiamo, Redmi, Samsung, iPhone, Oneplus, Oppo, 3 Outputs & 1 Input & Multiple Layers of Protection (Black)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:12 AM</td>
+				<td>
+						Product: Blushinsta Selfie Stick,Extendable Selfie Stick with Wireless Remote&Tripod Stand,Portable,Lightweight,Compatible with All Smartphone&Mobile (Black Color) Pack of 1
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:12 AM</td>
+				<td>
+						Product: DIZORO Compatible for iPhone 16 Case 6.1, Slim Liquid Silicone 3 Layers Full Covered Soft Gel Rubber Phone Case Protective Cover 6.1 Inch - (Mint.)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:12 AM</td>
+				<td>
+						Product: Belkin Tempered Glass Screen Protector Guard for iPhone 16, 15-2 Pack Smartphone
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:12 AM</td>
+				<td>
+						Product: WonRia [1+1 Tempered Glass for iPhone 16 5G with 3D Camera Lens Protector Glass Edges to Edge Screen Guard Protector 9H Hardness - (Pack of 2)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:12 AM</td>
+				<td>
+						Product: DIZORO Compatible for iPhone 16 Case 6.1, Slim Liquid Silicone 3 Layers Full Covered Soft Gel Rubber Phone Case Protective Cover 6.1 Inch - Black
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:14 AM</td>
+				<td>
+						Product: Spigen Essential Sand Blast Back Cover Case Compatible with iPhone 16 (TPU | Matte Black)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:14 AM</td>
+				<td>
+						Product: Apple iPhone 16 Silicone Case with MagSafe - Denim
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:14 AM</td>
+				<td>
+						Product: Spigen Liquid Air Back Cover Case Compatible with iPhone 16 (TPU | Matte Black)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:14 AM</td>
+				<td>
+						Product: Koala Bear Pro+ Tempered Glass Screen Protector Guard for iPhone 16, [1 Pack] 6.1" [Big Curved Edge] ESD Plus
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:14 AM</td>
+				<td>
+						Product: Amozo for iPhone 16 Plus Back Case Cover | Ultra Hybrid Mag-Safe Camera and Drop Protection Back Case Cover for iPhone 16 Plus - (Polycarbonate|Clear)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:20 AM</td>
+				<td>
+						Product: DIZORO Compatible for iPhone 16 Case 6.1, Slim Liquid Silicone 3 Layers Full Covered Soft Gel Rubber Phone Case Protective Cover 6.1 Inch - Black
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:21 AM</td>
+				<td>
+						Product: A rtistque Clear Back Cover Case for iPhone 16 | Acrylic | Shockproof TPU | Stylish Protective Design | iPhone 16 Back Cover - Transparent
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:21 AM</td>
+				<td>
+						Product: RAEGR MagFix Arc M1050 [3-in-1] 15W Mag-Safe Compatible Wireless Charging Stand Compatible with iPhone 16/15/14/13 Series, Apple Watch Series [Ultra 2/9/8/7/SE], AirPods Pro, Aluminum Uni-Body Design
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:21 AM</td>
+				<td>
+						Product: Zapcase Back Case Cover for iPhone 16 | Compatible for iPhone 16 Back Cover | Liquid Silicon Magic Case for iPhone 16 with Camera Protection | Sapphire
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:21 AM</td>
+				<td>
+						Product: ESR 3 Packs for iPhone 16 Pro Max Tempered Glass Screen Protector, 9H+ Hardness, Military-Grade Shatterproof, Full Coverage Film with Flawless Fit Tray, HD Clear
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:21 AM</td>
+				<td>
+						Product: Spigen Ultra Hybrid Magfit Back Cover Case Compatible with iPhone 16 Pro (TPU + Poly Carbonate | Frost Black)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:21 AM</td>
+				<td>
+						Product: mobistyle Designed for iPhone 16 Plus Cover Cool Shining Shell Love Heart Pattern Design with TPU Edges Phone Back Cover Case for Girls & Women (Pink)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:21 AM</td>
+				<td>
+						Product: Spigen Optik Armor Magfit Back Cover Case Compatible with iPhone 16 Pro (TPU + Poly Carbonate | Black)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:21 AM</td>
+				<td>
+						Product: Spigen Tough Armor(Ai) Magfit Back Cover Case Compatible with iPhone 16 (TPU + Poly Carbonate | Black)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:21 AM</td>
+				<td>
+						Product: Amozo for iPhone 16 Pro Back Case Cover | Defence Series Matte Mag-Safe Camera & Drop Protection Back Cover Case for iPhone 16 Pro (Black|Polycarbonate)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:21 AM</td>
+				<td>
+						Product: Spigen Ultra Hybrid S Magfit Back Cover Case Compatible with iPhone 16 (TPU + Poly Carbonate | Crystal Clear)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:21 AM</td>
+				<td>
+						Product: Spigen Ultra Hybrid Back Cover Case Compatible with iPhone 16 Plus (TPU + Poly Carbonate | Crystal Clear)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:21 AM</td>
+				<td>
+						Product: Apple iPhone 16 Clear Case with MagSafe
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:22 AM</td>
+				<td>
+						Product: Spigen Essential Sand Blast Back Cover Case Compatible with iPhone 16 Pro (TPU | Matte Black)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:22 AM</td>
+				<td>
+						Product: ZARALA Camera Lens Frame Glass Compatible with Iphone 16/16 Plus Tempered Glass Aluminum Alloy Frame Individual Camera Lens Protector Cover (Blue)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:22 AM</td>
+				<td>
+						Product: CLITZ for iPhone 16/16 Plus Camera Lens Protector Bling Individual Metal Diamond Ring 9H Hardness Scratchproof Protector, Stylish Phone Accessories, Case Friendly (Green Diamond)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:22 AM</td>
+				<td>
+						Product: Lensarmor® Compatible for Desert Titanium Iphone 16 Pro Camera Lens Protector - Iphone 16 Pro Max Camera Lens Protector - 9H Hardness, Camera Protector Iphone 16 Pro - Iphone 16 Pro Lens Protector
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:22 AM</td>
+				<td>
+						Product: TheGiftKart Hybrid Ultimate Slim Back Case Cover for iPhone 16 Plus | Camera & Screen Protection | Frosted Matte Translucent Hard Back Case Cover for iPhone 16 Plus (PC & TPU, Black Bumper)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:22 AM</td>
+				<td>
+						Product: Koala Bear 360° True Privacy Tempered Glass Screen Protector Guard for iPhone 16 Pro, 4-Way Anti-Spy, 9H Hardness, Easy Installation - 6.3"
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:22 AM</td>
+				<td>
+						Product: Casual Need iPhone 16 / iPhone 16 Plus Camera Lens Protector [9H Tempered Glass] Camera Cover Screen Protector - HD Clear, Metal Individual Ring for iPhone 16 6.1" / iPhone 16 Plus 6.7" (Black)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:22 AM</td>
+				<td>
+						Product: Star Craftune Nillkin Case for iPhone 16 Pro 5G Super Frosted Shield Pro Hard Back Soft Border (PC + TPU) Shock Absorb Cover Raised Edge Camera Protect (Logo Cut)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:22 AM</td>
+				<td>
+						Product: TheGiftKart Ultra-Hybrid Back Case Cover for iPhone 16 Pro Compatible with MagSafe | Camera Protection | Hard Crystal Clear Back | Shockproof Bumper Case Cover for iPhone 16 Pro (Transparent)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:22 AM</td>
+				<td>
+						Product: ESR for iPhone 16 Plus Case, Compatible with MagSafe, Shockof Military-Grade tection, TPU, Magnetic Phone Case for iPhone 16 Plus, Classic Hybrid Case (HaloLock), Clear Shimmer
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:22 AM</td>
+				<td>
+						Product: ESR 3 Pack for iPhone 16 / iPhone 15 Privacy Screen Protector, Anti-Spy Tempered Glass Privacy Screen Protector with Easy Installation Tool, Micro-curved Edges, Case Friendly
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:22 AM</td>
+				<td>
+						Product: CASEOLOGY by Spigen Athlex Mag for iPhone 16 Pro Case [Sandstone Texture for Anti-Scratch] Magnetic Military Grade Drop Protection Back Cover Case for iPhone 16 Pro (TPU | Active Gray)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:22 AM</td>
+				<td>
+						Product: ESR for iPhone 16 Case, Compatible with MagSafe, Shockof Military-Grade tection, TPU, Magnetic Phone Case for iPhone 16, Classic Hybrid Case (HaloLock), Clear Green
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:22 AM</td>
+				<td>
+						Product: mobistyle Designed for iPhone 16 Plus Luxury Electroplating Case [Magnetic Mag-Safe] [Integrated Lens Protection] Back Cover Case for iPhone 16 Plus (Mega-Safe Blue)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:22 AM</td>
+				<td>
+						Product: ESR for iPhone 16 Case, Military-Grade Protection, Shockproof Air Guard Corners, Yellowing-Resistant Back, TPU, Phone Case for iPhone 16, Air Armor Series, Clear Green
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:22 AM</td>
+				<td>
+						Product: Spigen Tough Armor(Ai) Magfit Back Cover Case Compatible with iPhone 16 Plus (TPU + Poly Carbonate | Black)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:22 AM</td>
+				<td>
+						Product: Zapcase Back Case Cover for iPhone 16 | Compatible for iPhone 16 Back Case Cover | Liquid Silicon Magic Case for iPhone 16 with Camera Protection|Black
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:22 AM</td>
+				<td>
+						Product: ESR 3 Pack for iPhone 16 Pro Screen Protector Tempered Glass, [9H Hardness] [Military Grade Shatterproof] Full Coverage Film with Flawless Fit Tray, HD Clear, Scratch Resistant
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:23 AM</td>
+				<td>
+						Product: Lensarmor® Compatible With Teal Iphone 16/16 Plus Camera Lens Protector - 9H Hardness, Premium Iphone 16 Lens Protector, Does Not Affect Flash Shots - Camera Protector Iphone 16
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:23 AM</td>
+				<td>
+						Product: CASEOLOGY by Spigen Capella Mag for iPhone 16 Case [Ultra Clear] Magnetic Military Grade Drop Protection Side Grip Patterns Back Cover Case for iPhone 16 (TPU and PC | Clear Black)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:23 AM</td>
+				<td>
+						Product: ESR Camera Lens Protectors for iPhone 16 Pro Max/16 Pro/15 Pro Max/15 Pro/14 Pro Max/14 Pro, Tough HD Individual Protectors, Scratch Resistant, Thin Tempered Glass, Armorite Series, 1 Pack, Clear
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:23 AM</td>
+				<td>
+						Product: CLITZ for iPhone 16 Pro/16 Pro Max Camera Lens Protector Bling Individual Metal Diamond Ring 9H Hardness Scratchproof Protector, Stylish Phone Accessories, Case Friendly (Titanium Desert Diamond)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:23 AM</td>
+				<td>
+						Product: Totem VisualPro Lens Guard for iPhone 16 | 16 Plus Lens Protector | 9H Hardness | Anti Glare | High Clarity | Auto-Align Install Kit | Stick Remover | Blue
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:23 AM</td>
+				<td>
+						Product: Spigen EZ Fit Optik Pro Tempered Glass Camera Lens Protector Guard for iPhone 16 Pro / 16 Pro Max / 15 Pro / 15 Pro Max / 14 Pro / 14 Pro Max (Natural Titanium) - 2 Pack
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:23 AM</td>
+				<td>
+						Product: ESR 3 Packs for iPhone 16/15 Tempered Glass Screen Protector, 9H+ Hardness, Military-Grade Shatterproof, Full Coverage Film with Flawless Fit Tray, HD Clear
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:23 AM</td>
+				<td>
+						Product: Spigen Ultra Hybrid Back Cover Case Compatible with iPhone 16 Pro (TPU + Poly Carbonate | Crystal Clear)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:23 AM</td>
+				<td>
+						Product: POPIO Tempered Glass Screen Protector Compatible for iPhone 15 Plus/iPhone 16 Plus (Black) Edge to Edge Coverage with Easy Installation kit
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:23 AM</td>
+				<td>
+						Product: Spigen Ultra Hybrid Magfit Back Cover Case Compatible with iPhone 16 Pro (TPU + Poly Carbonate | White)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:23 AM</td>
+				<td>
+						Product: Spigen Tough Armor(Ai) Magfit Back Cover Case Compatible with iPhone 16 (TPU + Poly Carbonate | Gunmetal)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:23 AM</td>
+				<td>
+						Product: TheGiftKart Ultra-Hybrid Crystal Clear Back Case Cover for iPhone 16 Pro Max | Shockproof Design | Camera Protection Bump | Hard Clear Back | Bumper Case Cover for iPhone 16 Pro Max (Transparent)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:23 AM</td>
+				<td>
+						Product: Soomio Clear Magnetic Diamond Glitter Case for iPhone 16 Pro Case with Full Camera Protection Rhinestone Luxury Plating Bling Transparent Shockproof for Magsaf Women Girls Cute Cover (Pink)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:23 AM</td>
+				<td>
+						Product: CLITZ for iPhone 16/16 Plus Camera Lens Protector Bling Individual Metal Diamond Ring 9H Hardness Scratchproof Protector, Stylish Phone Accessories, Case Friendly (Silver Diamond)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:23 AM</td>
+				<td>
+						Product: CASEOLOGY by Spigen Snap Fit for iPhone 16 Pro Screen Protector [Tempered Glass with Installation Kit] [Anti-Scratch] Screen Guard Protector for iPhone 16 Pro - 2 Pack
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:23 AM</td>
+				<td>
+						Product: TheGiftKart Ultra-Hybrid Crystal Clear Back Case Cover for iPhone 16 Plus | Shockproof Design | Camera Protection Bump | Hard Clear Back | Bumper Case Cover for iPhone 16 Plus (Transparent)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:23 AM</td>
+				<td>
+						Product: iPhone Original 20W Charger Type C Adapter for iPhone 16/16Plus/16 Pro/16 Pro,Max /15/15 Plus/15 Pro/15 Pro Max, iPhone 14/13/12/11/Series with PD 3.0 USB-C 20 Watt Fast Charging Adaptor BIS Certified
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:24 AM</td>
+				<td>
+						Product: TheGiftKart Hybrid Ultimate Slim Back Case Cover for iPhone 16 Pro Max | Camera & Screen Protection | Frosted Matte Translucent Hard Back Case Cover for iPhone 16 Pro Max (PC & TPU, Black Bumper)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:24 AM</td>
+				<td>
+						Product: ESR for iPhone 16 Plus Case, Compatible with MagSafe, Military-Grade Protective Case, TPU, Built-in Stash Stand Phone Case, Scratch-Resistant Back Cover, Classic Series, Clear
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:24 AM</td>
+				<td>
+						Product: Apple iPhone 16 Silicone Case with MagSafe - Lake Green
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:24 AM</td>
+				<td>
+						Product: ZARALA Camera Lens Frame Glass Compatible with Iphone 16/16 Plus Tempered Glass Aluminum Alloy Frame Individual Camera Lens Protector Cover (Black)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:24 AM</td>
+				<td>
+						Product: Belkin iPhone 16 Pro Tempered Glass with Easy Align Tray, 2PK
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:24 AM</td>
+				<td>
+						Product: Stuffcool ecolo Type C to C PD 100W Sync & Charge Cable GRS Certified Recycled Plastic compatible with iPhone 15 and 16, MacBooks and laptops that require Type-C PD 100W charging
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:24 AM</td>
+				<td>
+						Product: ANKER 20W Type C Ultra-Fast Charger, 3X Times Faster Charging, Power Delivery Pd with Patented PIQ 3.0 Technology for iPhone 15/14 /13, Galaxy, Pixel, Ipad and More, White
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:24 AM</td>
+				<td>
+						Product: MONASAY Vegan Leather Fit for iPhone 16 5G Wallet Case,[Glass Screen Protector Included] [RFID Blocking] Flip Folio Phone Cover with Credit Card Holder,6.1-inch, Black
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:24 AM</td>
+				<td>
+						Product: Spigen PE2007 70W GaN Dual Port Supoer Fast Wall Charger Compatible with All C Type Mobile Phones and Devices iPhone15,iPhone14,iPhone13,iPhone12,Galaxy S24, S23 - White
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:29 AM</td>
+				<td>
+						Product: DIZORO Compatible for iPhone 16 Case 6.1, Slim Liquid Silicone 3 Layers Full Covered Soft Gel Rubber Phone Case Protective Cover 6.1 Inch - Mist Blue
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:29 AM</td>
+				<td>
+						Product: Zapcase Back Case Cover for iPhone 16 | Compatible for iPhone 16 Back Case Cover | Liquid Silicon Magic Case for iPhone 16 with Camera Protection|Black
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:29 AM</td>
+				<td>
+						Product: Belkin Privacy Tempered Glass Screen Protector Guard for iPhone 16, 15 Plus
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:29 AM</td>
+				<td>
+						Product: eller santé® 23w Magnetic Mag-Safe Charger 3in1 Wireless Charger for iPhone 16/16 Plus/16 Pro/16 Pro Max, iPhone 15/15 Plus/15 Pro/15 Pro Max, iPhone 14/13/12 Series Fast Charging Adaptor- Grey
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:29 AM</td>
+				<td>
+						Product: Spigen EZ Fit Privacy Tempered Glass Screen Protector Guard For iPhone 16 Pro Max - 2 Pack
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:29 AM</td>
+				<td>
+						Product: ESR 3 Pack for iPhone 16 Pro Screen Protector, Tempered Glass Film with Easy Installation Tool, 9H Hardness, Military-Grade Shatterproof, HD Clear, Scratch Resistant
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:29 AM</td>
+				<td>
+						Product: CASEOLOGY by Spigen Nano Pop Mag for iPhone 16 Pro Case [Soft & Dust Free Material] Magnetic Military Grade Drop Protection Back Cover Case for iPhone 16 Pro (TPU and PC | Black Sesame)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:29 AM</td>
+				<td>
+						Product: CASEOLOGY by Spigen Snap Fit for iPhone 16 Pro Max Screen Protector [Tempered Glass with Installation Kit] [Anti-Scratch] Screen Guard Protector for iPhone 16 Pro Max - 2 Pack
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:29 AM</td>
+				<td>
+						Product: Spigen Ultra Hybrid Magfit Back Cover Case Compatible with iPhone 16 Pro Max (TPU + Poly Carbonate | Frost Black)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:29 AM</td>
+				<td>
+						Product: CASEOLOGY by Spigen Snap Fit for iPhone 16 Plus Screen Protector [Tempered Glass with Installation Kit] [Anti-Scratch] Screen Guard Protector for iPhone 16 Plus - 2 Pack
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:29 AM</td>
+				<td>
+						Product: Amazon Brand-Solimo Basic Case for Apple iPhone 16 Pro (Silicone_Transparent)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:29 AM</td>
+				<td>
+						Product: ESR 3 Packs for iPhone 16 Pro Tempered Glass Screen Protector, 9H+ Hardness, Military-Grade Shatterproof, Full Coverage Film with Flawless Fit Tray, HD Clear
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:29 AM</td>
+				<td>
+						Product: Spigen PE2007 70W GaN Dual Port Supoer Fast Wall Charger Compatible with All C Type Mobile Phones and Devices iPhone15,iPhone14,iPhone13,iPhone12,Galaxy S24, S23 - White
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:29 AM</td>
+				<td>
+						Product: Apple iPhone 16 Silicone Case with MagSafe - Fuchsia
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: Spigen Ultra Hybrid Magfit Back Cover Case Compatible with iPhone 16 Pro Max (TPU + Poly Carbonate | Frost Clear)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: ZARALA Camera Lens Frame Glass Compatible with Iphone 16/16 Plus Tempered Glass Aluminum Alloy Frame Individual Camera Lens Protector Cover (Silver)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: amFilm OneTouch 2+2 Pack for iPhone 16 Pro 6.3" Screen Protector Tempered Glass with Camera Lens Guard, Easiest Premium Installation Kit, Bubble Free, Case Friendly, 9H Hardness, Anti-Scratch
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: Wayona USB C to USB C 65W Fast Charging Cable Compatible with iPhone 16,15,15 Pro/Max, Macbook, iPad,Samsung S24/S23 Ultra,Flip, Fold 5G,OnePlus, Google Pixel Laptops (1M, Black)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: SupCares Edge to Edge Tempered Glass for iPhone 16 and iPhone 15 (6.1 Inch) with Easy Self-Installation Kit | Black
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: Anks Creation Metal Speaker Dustproof Anti Dust Sticker Compatible for iPhone 16/16 Plus/ 16 Pro / 16 Pro Max (Silver)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: Xfilm for iPhone 16 Pro/16 Pro Max Camera Lens Protector Bling Individual Metal Diamond Ring 9H Hardness Scratchproof Protector, Stylish Phone Accessories, Case Friendly (Titanium Desert Diamond)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: Spigen EZ Fit Privacy Tempered Glass Screen Protector Guard For iPhone 16 Pro - 2 Pack
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: Choiche Compatible for iPhone 16 /iPhone 16 Plus Camera Lens Protector Bling, 9H Tempered Glass Camera Cover Screen Protector Metal Ring Decoration Accessories(Diamond-Silver)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: OggyBaba Sticker Bombing iPhone 16 Mobile Back Skin Rear Screen Guard Protector Film Wrap (Coverage - Back+Camera+Sides)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: ESR for iPhone 16 Pro Case, Compatible with MagSafe, Shockproof Military-Grade Protection, TPU, Magnetic Phone Case for iPhone 16 Pro, Classic Hybrid Case (HaloLock), Frosted Black
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: Spigen Ultra Hybrid Magfit Back Cover Case Compatible with iPhone 16 Plus (TPU + Poly Carbonate | White)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: Spigen Ultra Hybrid Back Cover Case Compatible with iPhone 16 Pro (TPU + Poly Carbonate | Rose Titanium)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: ESR for iPhone 16 Pro Case, Compatible with MagSafe, TPU, Full-Body Military-Grade Drop Proof Case for iPhone 16 Pro with Built-in 9H+ Tempered Glass Screen Protector, Clear Black
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: Amozo for iPhone 16 Plus Back Case Cover |Ultra Hybrid Camera and Drop Protection Back Case Cover for iPhone 16 Plus - (Polycarbonate|Clear)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: ESR Magnetic Ring 360, Compatible with MagSafe Sticker, Universal Magnetic Kit for iPhone 16/15/14/13/12/11/X Series, Galaxy Samsung and More, 2 Pack, MagSafe Accessories, Black and Silver
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: Amozo for iPhone 16 Pro Max Back Case Cover | Camera Protection Frameless Slim Translucent Matte Back Case Cover for iPhone 16 Pro Max (Polycarbonate|Black)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: Apple iPhone 16 Silicone Case with MagSafe - Star Fruit
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: Spigen Ultra Hybrid Back Cover Case Compatible with iPhone 16 Pro Max (TPU + Poly Carbonate | Rose Titanium)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: mobistyle Designed for iPhone 16 Plus Cover Cool Shining Shell Love Heart Pattern Design with TPU Edges Phone Back Cover Case for Girls & Women (Purple)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: JGD PRODUCTS for iPhone 16 Plus Premium Transparent Hybrid Soft Slim Dust Proof Back Case Cover with Camera Protection
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: UNIGEN MAGTEC 100 15W Mag-Safe Magnetic Wireless Charger Fast Charging Compatible with iPhone 16/16 Plus/16 Pro/16 Pro Max,15/15 Plus/15 Pro/15 Pro Max,14/13/12 Series All Qi-Enabled Devices-White
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: ESR 3 Pack for iPhone 16 Pro Max Privacy Screen Protector, Anti-Spy Tempered Glass Privacy Screen Protector with Easy Installation Tool, Micro-curved Edges, Case Friendly
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:30 AM</td>
+				<td>
+						Product: Apple iPhone 16 Pro Clear Case with MagSafe
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:31 AM</td>
+				<td>
+						Product: TheGiftKart Hybrid Matte Frosted Translucent Back Cover Case for iPhone 16 Pro Max | Shockproof Design | Camera Protection Module | Hard Back Cover for iPhone 16 Pro Max (PC & TPU, Frost Black)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:31 AM</td>
+				<td>
+						Product: Ringke Fusion-X Compatible with iPhone 16 Pro Case Cover Transparent Hard Back Soft Flexible TPU Bumper Scratch Resistant Shockproof Protection iPhone 16 Pro Back Cover - Black
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:31 AM</td>
+				<td>
+						Product: ESR 3 Pack for iPhone 16/15 Screen Protector Tempered Glass, [9H Hardness] [Military Grade Shatterproof] Full Coverage Film with Flawless Fit Tray, HD Clear, Scratch Resistant
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:31 AM</td>
+				<td>
+						Product: Original iPhone 16, 16 Pro, 16 Pro Max, 16 Plus MFI Certified 20W New Fast Charging Adapter Compatible with 15,15 Pro,15 Pro Max, 15 Plus, 16, 16 Pro, 16 Pro Max, 16 Plus
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:31 AM</td>
+				<td>
+						Product: Ringke Fusion Compatible with iPhone 16 Plus Case Cover Transparent Hard Back Soft Flexible TPU Bumper Scratch Resistant Natural Form iPhone 16 Plus Back Cover - Clear
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:31 AM</td>
+				<td>
+						Product: Spigen Liquid Air Back Cover Case Compatible with iPhone 16 Pro (TPU | Natural Titanium)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:31 AM</td>
+				<td>
+						Product: Apple iPhone 16 Pro Silicone Case with MagSafe - Black
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:31 AM</td>
+				<td>
+						Product: Amozo for iPhone 16 Pro Max Back Case Cover |Ultra Hybrid Camera and Drop Protection Back Case Cover for iPhone 16 Pro Max - (Polycarbonate|Clear)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:31 AM</td>
+				<td>
+						Product: ESR 3 Pack for iPhone 16 Plus/iPhone 15 Plus Screen Protector, Tempered Glass Film with Easy Installation Tool, 9H Hardness, Military-Grade Shatterproof, Full Coverage, HD Clear, Scratch Resistant
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:31 AM</td>
+				<td>
+						Product: TheGiftKart Crystal Clear Back Cover Case for iPhone 16 Pro | 360 Degree Protection | Shock Proof Design | Transparent Back Cover Case for iPhone 16 Pro (Transparent Bumper)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:31 AM</td>
+				<td>
+						Product: Amozo for iPhone 16 Plus Back Case Cover | Camera Protection Frameless Slim Translucent Matte Back Case Cover for iPhone 16 Plus (Polycarbonate|Black)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:31 AM</td>
+				<td>
+						Product: ESR for iPhone 16 Pro Case, Compatible with MagSafe, Military-Grade Protective Case, TPU, Built-in Stash Stand Phone Case, Scratch-Resistant Back Cover, Classic Series, Clear
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:31 AM</td>
+				<td>
+						Product: Amozo for iPhone 16 Pro Back Case Cover | Camera Protection Frameless Slim Translucent Matte Back Case Cover for iPhone 16 Pro (Polycarbonate|Black)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:31 AM</td>
+				<td>
+						Product: Amazon Brand-Solimo Basic Case for Apple iPhone 16 Pro Max (Silicone_Clear)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:31 AM</td>
+				<td>
+						Product: Nextech NTQ30 35W Dual Port PDQC3.0 GaN, BIS Certified, Made in India Fast Wall Charger Compatible with iPhones, iPads, Tablets, Android & Smartphones (White)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:31 AM</td>
+				<td>
+						Product: Belkin Privacy Tempered Glass Screen Protector Guard for iPhone 16, 15
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:31 AM</td>
+				<td>
+						Product: Verilux® Pendrive 256GB, 4-in-1 Flash Drive for iPhone 4 in 1 Type C Pendrive with Light-ning/USB3.0/Micro/Type-c USB Memory Stick High Speed USB Stick External Storage for iPhone/iPad/Android/PC
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:31 AM</td>
+				<td>
+						Product: Lensarmor® Compatible With Teal Iphone 16/16 Plus Camera Lens Protector - 9H Hardness, Premium Iphone 16 Lens Protector, Does Not Affect Flash Shots - Camera Protector Iphone 16
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:31 AM</td>
+				<td>
+						Product: CASENED Tempered Glass Camera Lens Protector for iPhone 16 Pro/iPhone 16 Pro Max - Aviation Aluminum Ring with Tempered Glass - Scratch Resistant, Easy Installation
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:37 AM</td>
+				<td>
+						Product: Blyton Back Screen Protector for iPhone 16 Unbreakable Membrane Scratch Guard Transparent TPU Full Fit Protective, Case Friendly, Compatible with Iphone 16 (Back & Side)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:37 AM</td>
+				<td>
+						Product: HOJI Cell Phone Stand, Adjustable Height & Angle Phone Holder Gooseneck Flexible Arm Universal Phone Stand for Desk, Aluminum Alloy Desktop Cell Phone Holder Compatible with 3.5"-6.5" Device (Black)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:37 AM</td>
+				<td>
+						Product: MIDOS Back Cover Compatible with iPhone 16 Case Liquid Silicone Full Protection Shock Proof Back Cover for iPhone 16 (S_Sky Blue)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:37 AM</td>
+				<td>
+						Product: EITANSHA CREATION Screen Protector Tempered Glass For iPhone 16 / Apple iPhone 16 / iPhone 15 with Edge-to-Edge Coverage and Easy Installation Kit
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:37 AM</td>
+				<td>
+						Product: Amozo for iPhone 16 Pro Back Case Cover |Ultra Hybrid Camera and Drop Protection Back Case Cover for iPhone 16 Pro - (Polycarbonate|Clear)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:37 AM</td>
+				<td>
+						Product: ICYNICS Camera Lens Protector for iPhone 16 / iPhone 16 Plus 9H Hardness, Ultra HD, Anti-Scratch, Easy Installation, Case Friendly Metal Individual Ring (Light Teal)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:37 AM</td>
+				<td>
+						Product: DIZORO Compatible for iPhone 16 Plus Case 6.7, Slim Liquid Silicone 3 Layers Full Covered Soft Gel Rubber Phone Case Protective Cover 6.7 Inch (Mint)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:37 AM</td>
+				<td>
+						Product: Ringke Fusion Matte Compatible with iPhone 16 Pro Case Cover Anti Fingerprint Hard Back Soft Flexible TPU Bumper Scratch Resistant Natural Form iPhone 16 Pro Back Cover - Matte Clear
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:37 AM</td>
+				<td>
+						Product: Portronics 51W Car Power 16 Fast Car Charger with Dual Output, 51 Watts Total (18W USB + 33W Type C PD), Fast Charging, Adapter for iPhone & Android Smartphones and Tablets (Black)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:37 AM</td>
+				<td>
+						Product: ZEBRONICS Type C to Type C Strong Braided Cable, 60W PD Fast Charging, for iPhone 16 Series, 15 Series, iPad, MacBook, Samsung, Other Android Devices, Data Sync, 1 Meter (ZEB-TT60+)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:41 AM</td>
+				<td>
+						Product: UNIGEN PD QC 20W 2 in 1 Dual Port Wall Charger Type C Adapter for iPhone 16/15/15 Plus/15 Pro/15 Pro Max, 14/14 Plus/14 Pro/Max, 13/12 Series PD 3.0 Multiple Protection Fast Charging BIS Certified
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:42 AM</td>
+				<td>
+						Product: UNIGEN AUDIO MAGTEC 500 5in1 Mag-Safe Charging Station [with Adapter] Compatible with iPhone 16/15/14/13/12, Apple Watch SE/7/6/5/4/3/2 Edition - Stay Connected and Powered Up with Style-Pink
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:42 AM</td>
+				<td>
+						Product: BOOTECH Original Charger 20W Fast Charging Type C Adapter Compatible with iPhone 15/14/13/12/11/X/Pro & Max Series, Samsung, Mi & Other
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:43 AM</td>
+				<td>
+						Product: Zapcase Back Case Cover for iPhone 16 | Compatible for iPhone 16 Back Case Cover | Liquid Silicon Magic Case for iPhone 16 with Camera Protection |Plum
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:44 AM</td>
+				<td>
+						Product: Fashionury Shockproof Crystal Soft Clear Back Cover Case for iPhone 16 | Raised Bumps for Camera & Screen Protection | Transparent Soft Back Case Cover for iPhone 16
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:44 AM</td>
+				<td>
+						Product: Spigen Unisex Faux Leather Lock Fit (Magfit) Magnetic Wallet Card Holder Up to 6 Cards Designed for Magsafe Compatible with iPhone 16, iPhone 15, iPhone 14, iPhone 13, iPhone 12 Models - Black
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:44 AM</td>
+				<td>
+						Product: TheGiftKart Ultra-Hybrid Back Cover Case for iPhone 16 Pro Compatible with MagSafe | Camera Protection | Crystal Clear Transparent Back Cover Case for iPhone 16 Pro (PC & TPU, Black Bumper)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:44 AM</td>
+				<td>
+						Product: CEDO Magfit Cover for iPhone 16 Pro (6.3 inch) | Mag-Safe Wireless Charging | Designed with Magnetic Lock Shockproof Phone Bumper Transparent Back Case Cover (Clear)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:45 AM</td>
+				<td>
+						Product: UNIGEN PD QC 20W 2 in 1 Dual Port Wall Charger Type C Adapter for iPhone 16/15/15 Plus/15 Pro/15 Pro Max, 14/14 Plus/14 Pro/Max, 13/12 Series PD 3.0 Multiple Protection Fast Charging BIS Certified
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:45 AM</td>
+				<td>
+						Product: TheGiftKart Ultra-Hybrid Back Cover Case for iPhone 16 Pro Max Compatible with MagSafe | Camera Protection | Crystal Clear Transparent Back Cover Case for iPhone 16 Pro Max (PC & TPU, Black Bumper)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:52 AM</td>
+				<td>
+						Product: HOJI Premium Stand Portable Desktop Phone Stand 360° Rotatable and Foldable Cell Phone Holder Metal Base for Table & Bed Compatible with All Smartphones & Tablets Desk - Multi Color
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:52 AM</td>
+				<td>
+						Product: Case-Mate Case for iPhone 16 [12ft Drop Protection] Magnetic Back Cover Case for iPhone 16 [Compatible with MagSafe] Anti-Scratch, Shock Absorbent Cover with Anti Yellowing Tech, Slim - Tough Clear
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:53 AM</td>
+				<td>
+						Product: Zapcase Back Case Cover for iPhone 16 | Compatible for iPhone 16 Back Cover | Liquid Silicon Magic Case for iPhone 16 with Camera Protection | Lavender
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:53 AM</td>
+				<td>
+						Product: ZORBES® Phone Lanyard Phone Hand Strap Set Phone Neckstrap for All Phone Case Adjustable Grey Phone Sling with 2 Self-Adhesive Inserts Phone Sling Hand Strap, Not Includes Phone Case
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:53 AM</td>
+				<td>
+						Product: Cubix® Denim Flip Cover for Apple iPhone 16 Pro Max Case Luxury Slim Wallet Folio Case Magnetic Closure Cover (Brown)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:53 AM</td>
+				<td>
+						Product: Affix Easy Fix Edge to Edge Tempered Glass Screen Guard for iPhone 15 and iPhone 16 (6.1 Inch) | Case-Friendly | Black | Pack of 2
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:53 AM</td>
+				<td>
+						Product: Original Ultra Fast Charging Cable Compatible with iPhone 15/15 Plus/15 Pro Max iPhone 16/16 Plus/16 Pro/16 Pro Max 20w Type C to C
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:53 AM</td>
+				<td>
+						Product: Wireless Charger Compatible for iPhone 16/15/14/13 Series & All -Devices
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:53 AM</td>
+				<td>
+						Product: BOUNCEBACK Blade Series Slim Hard Back Case/Cover forIphone 16 Pro Max - (Black | Polycarbonate)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:53 AM</td>
+				<td>
+						Product: Sandstone Magnetic Flip Cover for Apple iPhone 16 Forest Green Leather Flip Cover with [Card Slots] [Magnetic Closure] [Durable Frame] (Forest Green)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:54 AM</td>
+				<td>
+						Product: elago Compatible with iPhone 16 Plus Case, Premium Liquid Silicone Case, Full Body Protective Cover, Shockproof, Slim Phone Case, Anti-Scratch Soft Microfiber Lining, 6.7 inch (Midnight Green)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:54 AM</td>
+				<td>
+						Product: Urban Armor Gear UAG iPhone 16 Pro Screen Protector, Screen Shield Ultra-Clear HD Tempered Glass Screen Protector/Screen Guard Designed for iPhone 16 Pro (6.3-Inch) (2024) - Clear
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:54 AM</td>
+				<td>
+						Product: RAEGR iPhone 16 Pro Case | Anodized Aluminum Bumper | Supports Mag-Safe Wireless Charging | Edge Armor Protective Minimal Case Designed for iPhone 16 Pro (6.3-Inch) (2024) - Natural Titanium RG10581
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:54 AM</td>
+				<td>
+						Product: LIRAMARK Liquid Silicone Soft Back Cover Case for Apple iPhone 16 Pro Max (6.9 inch) (Midnight Blue)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:54 AM</td>
+				<td>
+						Product: PRINTFIDAA® Metal TPU Printed Back Cover for Apple iPhone 16 Pro (Panda -J1) 360 Degree Protection | Camera Protection -25092024(M)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:54 AM</td>
+				<td>
+						Product: Amozo for iPhone 16 Back Case Cover | Ultra Hybrid Mag-Safe Camera and Drop Protection Back Case Cover for iPhone 16 - (Polycarbonate|Clear)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:54 AM</td>
+				<td>
+						Product: Elzzi Magnetic Cover Compatible for iPhone 16 Case with Adjustable Metal Kickstand, Compatible with Mag-Safe Translucent Matte Shockproof Protective Phone Case for iPhone 16, Black
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:54 AM</td>
+				<td>
+						Product: BERRIES™ (Pack of 2) MATT SCREEN PROTECTOR Compatible For APPLE IPHONE 16 PRO MAX (Flexible Unbreakable 9H) Full Screen Coverage (Except Edges) With Easy Installation Kit
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:54 AM</td>
+				<td>
+						Product: Nillkin Case for Apple iPhone 16 Plus Super Frosted Shield Pro Hard Back Soft Border (PC + TPU) Shock Absorb Cover Raised Bezel Camera Protect PC Without Logo Cut Black Color
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:54 AM</td>
+				<td>
+						Product: Apple iPhone 16 Back Case Cover Compatible, Cute Chocolate Design Soft Silicone Case, 360 Body Protection (Pink)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:54 AM</td>
+				<td>
+						Product: Car CarPlay Charger for iPhone 15/15 Pro Max/15 Plus, USB A to USB C Cable for Apple Carplay/iPhone 16 Series/iPad 10th Gen/Pro/Air 5th 4th/Mini 6th Gen, iPhone Car Charger Cord 3FT Replacement
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:54 AM</td>
+				<td>
+						Product: TECH KONNECT 16 Pro/16 Pro Max Camera Lens Protector, Camera Protector For iPhone, 16 Pro/ 16 Pro Max (Anti-Scratch) (Pack Of 1) (Brown)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:55 AM</td>
+				<td>
+						Product: ESR for iPhone 16 Case, Military-Grade Protection, Shockproof Air Guard Corners, Yellowing-Resistant Back, TPU, Phone Case for iPhone 16, Air Armor Series, Clear
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:55 AM</td>
+				<td>
+						Product: 20W Power Delivery USB Type C to C Cable and Charging Adapter, Compatible with iPhone 16, 16 Plus, 16 Pro, 16 Pro Max
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:55 AM</td>
+				<td>
+						Product: LIRAMARK Carbon Fibre Kickstand Case for Apple iPhone 16 (6.1 inch) Black
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:55 AM</td>
+				<td>
+						Product: MONASAY Glass Screen Protector [2 Pack] Fit for iPhone 16 6.1 inch[2 Pack Camera Lens Protector][Easy Installation] HD Matte Tempered Screen Film with Frame Full Coverage Case Friendly
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:55 AM</td>
+				<td>
+						Product: Spigen PE2007 70W GaN Dual Port Supoer Fast Wall Charger Compatible with All C Type Mobile Phones and Devices iPhone15,iPhone14,iPhone13,iPhone12,Galaxy S24, S23 - White
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:41:58 AM</td>
+				<td>
+						Test completed
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:41:58 AM</td>
+				<td>
+						Total products retrieved: 229
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="test-content scrollable">
+		<div class="test-content-tools">
+			<ul>
+				<li>
+					<a class="back-to-test" href="javascript:void(0)">
+					<i class="fa fa-arrow-left"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="test-content-detail">
+			<div class="detail-body"></div>
+		</div>
+	</div>
+</div>                    <!-- dashboard -->
+<div class="container-fluid p-4 dashboard-view">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Tests</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id='parent-analysis' width='115' height='90'></canvas>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div><small data-tooltip='100%'>
+						<b>1</b> tests passed
+						</small>
+					</div>
+					<div>
+						<small data-tooltip='0%'><b>0</b> tests failed, 
+						<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Log events</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id='events-analysis' width='115' height='90'></canvas>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div><small data-tooltip='0.427%'><b>1</b> events passed</small></div>
+					<div>
+						<small data-tooltip='0%'><b>0</b> events failed, 
+						<b data-tooltip='99.573%'>233</b> others
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Tests</h6>
+							<h2 class="font-size-28 font-weight-light mt-3">1</h2>
+							<span class="text-semibold text-success font-size-15">
+							<i class="ti-arrow-up font-size-11"></i> 
+							<span>100.00%</span>
+							</span>
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-align-left font-size-70 opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Start</h6>
+							<h4 class="font-weight-light mt-4">Oct 10, 2024 11:40:47 AM</h4>
+							<span class="text-semibold text-success font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-success opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Duration</h6>
+							<h4 class="font-weight-light mt-4">0h 1m 10s+850ms</h4>
+							<span class="text-semibold font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Timeline</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id="timeline" height="120"></canvas>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+	</div>
+</div>
+<script>
+	var statusGroup = {
+	    parentCount: 1,
+		passParent: 1,
+		failParent: 0,
+		fatalParent: 0,
+		errorParent: 0,
+		warningParent: 0,
+		skipParent: 0,
+		exceptionsParent: 0,
+		childCount: 0,
+		passChild: 0,
+		failChild: 0,
+		fatalChild: 0,
+		errorChild: 0,
+		warningChild: 0,
+		skipChild: 0,
+		infoChild: 0,
+		debugChild: 0,
+		exceptionsChild: 0,
+		grandChildCount: 0,
+		passGrandChild: 0,
+		failGrandChild: 0,
+		fatalGrandChild: 0,
+		errorGrandChild: 0,
+		warningGrandChild: 0,
+		skipGrandChild: 0,
+		infoGrandChild: 0,
+		debugGrandChild: 0,
+		exceptionsGrandChild: 0,
+		eventsCount: 234,
+		passEvents: 1,
+		failEvents: 0,
+		fatalEvents: 0,
+		errorEvents: 0,
+		warningEvents: 0,
+		skipEvents: 0,
+		infoEvents: 233,
+		debugEvents: 0,
+		exceptionsEvents: 0
+	};
+</script>
+<script>
+	var timeline = {
+	        "Amazon Product Search":70.294
+	};
+</script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ac7abbc71b4bb073da00153a5a3fdbcfe0c95e2a/spark/js/spark-script.js"></script>
+<script type="text/javascript">
+
+
+</script></body>
+</html>
